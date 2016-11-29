@@ -1,0 +1,78 @@
+*:not(body):not(html) {
+  border:1px dashed #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+nav {
+  height: 70px;
+}
+#wrap {
+  padding: 2% 5%;
+}
+
+#title {
+  float: left;
+  width: 40%;
+  height: 100%;
+}
+#menu {
+  float: right;
+  margin-top: 12px;
+}
+
+#menu ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+  width: 90px;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+#title img {
+  display: block;
+  float: left;
+  border-radius: 100%;
+  margin-top: 8px;
+}
+
+#title h3 {
+  margin-top: 15px;
+  padding-left: 60px;
+  font-size: 2em;
+}
+#intro {
+  margin-top: 40px;
+  background-color: pink;
+  height: 40vh;
+}
+#intro:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#text {
+  width: 55%;
+  background: papayawhip;
+  float: left;
+  margin-top: 105px;
+}
+#large-image {
+  width: 45%;
+  background: tomato;
+  float: left;
+  text-align: center;
+  height: 40vh;
+}
+#large-image img {
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+  max-width: 100%;
+  object-fit: cover;
+}
